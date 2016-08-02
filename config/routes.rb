@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
+  resources :songs
   get 'pages/index'
 
    Rails.application.routes.draw do
+  resources :songs
   get 'pages/index'
 
       devise_for :users, controllers: {
